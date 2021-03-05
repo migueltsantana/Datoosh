@@ -1,0 +1,44 @@
+site_name: Datoosh
+repo_url: https://github.com/migueltsantana/datoosh
+
+edit_uri: ""
+
+extra_css:
+  - css/extra.css
+  - css/termynal.css
+extra_javascript:
+  - js/termynal.min.js
+  - js/init-termynal.js
+
+nav:
+  - index.md
+  - why.md
+  - dbms.md
+  - installation.md
+  - settings.md
+  - options.md
+
+theme:
+  name: material
+  icon:
+    logo: material/database-arrow-up
+    repo: fontawesome/brands/github
+  pallete:
+    scheme: slate
+    primary: orange
+    accent: amber
+  features:
+    - search.highlight
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/migueltsantana
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/migueltsantana
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - admonition
