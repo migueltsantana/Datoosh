@@ -1,4 +1,4 @@
-mysql-connector-python==8.0.23
+mysql-connector-python==9.1.0
 progressbar2==3.53.1
 protobuf==3.18.3
 psycopg2-binary==2.8.6
